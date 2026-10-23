@@ -1,50 +1,80 @@
 <div align="center">
 
-# Entherogen Audio
+```
+ ░█▀▀░█▄░█░▀█▀░█░█░█▀▀░█▀▄░█▀▀░█▀▀░█▀▀░█▄░█
+ ░█▀▀░█░▀█░░█░░█▀█░█▀▀░█▀▄░█░█░█▀▀░█░█░█░▀█
+ ░▀▀▀░▀░░▀░░▀░░▀░▀░▀▀▀░▀░▀░▀▀▀░▀▀▀░▀░▀░▀░░▀
+              ·  A U D I O  ·
+```
 
-**Plugin audio psichedelici per mental core, industrial, acid e psytrance.**
-*Psychedelic audio plugins: instruments and effects that bend perception.*
+### ☣ plugin che non colorano il suono: lo fanno allucinare ☣
 
-`VST3` · `AU` · `Standalone` &nbsp;|&nbsp; JUCE 8 · C++17 · interfaccia WebGL
+`VST3` `AU` `STANDALONE` &nbsp;·&nbsp; `JUCE 8` `C++17` `WEBGL2`
+`mental core` `industrial` `acid` `psytrance` `breakcore`
+
+*psychedelic audio plugins · built in the underground, for the underground*
 
 </div>
 
 ---
 
-## Cosa facciamo
+## ◉ MANIFESTO
 
-Strumenti ed effetti pensati come esperienze, non come utility. Ogni plugin prende il nome da una
-sostanza o da un'allucinazione e ne traduce l'effetto in DSP: il suono non viene solo colorato, viene
-**falsificato, sciolto, deformato**. Hanno tutti un gesto principale, pochi controlli con nomi a tema e
-un'interfaccia WebGL condivisa (`enterogen-ui`).
+Niente preset puliti, niente "warm & musical". Qui il suono **si scioglie, si falsifica, collassa e si ricompone**.
+Ogni plugin prende il nome da una sostanza o da un'allucinazione e ne traduce l'effetto in DSP:
+un gesto principale, pochi controlli con nomi storti, un'interfaccia WebGL che pulsa.
 
-## Il catalogo
+Pensati per casse troppo grosse, sale troppo buie e set che finiscono quando sorge il sole.
 
-### Strumenti
+```
+ calma ──▶ onset ──▶ B R E A K T H R O U G H ──▶ white-out ──▶ ricomposizione ──▶ calma?
+```
 
-| Plugin | Cos'è |
-|---|---|
-| **L5D-303** | Synth acid monofonico con sequencer *Blotter*. Il basso della TB-303 (scala a diodi, squelch, accent, slide) incontra la sezione sporca del Wasp (sync, ring, filtro CMOS). |
-| **mu5hroom** | Synth FM a 4 operatori per i suoni alieni della psytrance high-tech: blip e bolle risonanti, zap, arpeggi gorgoglianti, bassline rolling. |
-| **1b0gaine** | Generatore di droni modali metallici: un enorme corpo di metallo tenuto in vibrazione, inarmonico, con grana di lamiera e sub profondo. |
+---
 
-### Effetti
+## ✺ STRUMENTI
 
-| Plugin | Cos'è |
-|---|---|
-| **Str4m0nio** | Effetto deliriante ispirato allo stramonio: aggiunge al suono allucinazioni credibili, come sussurri nel rumore, melodie fantasma, echi che anticipano il suono reale. |
-| **4-HO-M3T** | Effetto di scioglimento: il suono esce spalmato e liquido, con scie che colano di intonazione, gocce e filtri che respirano. |
-| **5-M30-DMT** | Drum mangler per breakcore e speedcore: taglia, ripete e inverte i colpi fino al *Breakthrough*, uno stutter che accelera ed esplode in un white-out. |
+| | | |
+|:--|:--|:--|
+| 🧪 **L5D-303** | `acid monosynth` | Il basso della TB-303 (scala a diodi, squelch liquido, accent, slide) sporcato dal ronzio del Wasp (sync, ring, filtro CMOS). Sequencer integrato: il **Blotter**. |
+| 🍄 **mu5hroom** | `FM a 4 operatori` | Suoni alieni da psytrance high-tech: blip e bolle risonanti, zap con pitch-dive, arpeggi gorgoglianti, bassline rolling. Ogni controllo ha un nome a tema fungo. |
+| 🔔 **1b0gaine** | `drone modale` | Un corpo di metallo enorme tenuto in vibrazione: inarmonico, lento, grana di lamiera, sub che ti entra nello sterno. |
 
-## Sotto il cofano
+## ☠ EFFETTI
 
-- **JUCE 8**, C++17, build con CMake su macOS (Windows e Linux dove indicato nei singoli repo)
-- Test di rendering offline: niente NaN, niente clipping, niente clic; validazione con *pluginval*
-- Nessuna allocazione né lock nel thread audio; latenza dichiarata all'host
-- UI web (TypeScript, Vite, WebGL2) incorporata nel plugin
+| | | |
+|:--|:--|:--|
+| 👁 **Str4m0nio** | `delirio` | Ispirato allo stramonio. Non amplifica il suono, lo **falsifica**: sussurri nel rumore, melodie fantasma, echi che arrivano prima del suono reale. |
+| 💧 **4-HO-M3T** | `scioglimento` | Il suono entra spigoloso ed esce spalmato e liquido: scie che colano di intonazione, gocce che cadono, filtri che respirano come un organismo. |
+| 💥 **5-M30-DMT** | `drum mangler` | Taglia, ripete e inverte i colpi fino al **Breakthrough**: stutter che accelera, white-out, e la batteria si ricompone. Breakcore, speedcore, drill'n'bass. |
 
-## Contatti
+---
 
-Account GitHub dell'organizzazione: [@Entherogen-Audio](https://github.com/Entherogen-Audio)
+## ⌬ SOTTO IL COFANO
 
-<sub>Dal catalogo alla pista: usali con giudizio.</sub>
+```
+ [ DSP C++17 / JUCE 8 ] ◀──▶ [ UI web: TypeScript · Vite · WebGL2 ]   incorporata nel plugin
+```
+
+- **Zero allocazioni, zero lock** nel thread audio. Latenza dichiarata all'host.
+- **Test di rendering offline:** niente NaN, niente clipping, niente clic. Validazione con *pluginval*.
+- **Ogni README è un manuale**: architettura, parametri, limiti noti. Niente scatole nere.
+- UI condivisa fra tutti i plugin: `enterogen-ui`.
+
+## ✧ SPIRITO OPEN SOURCE
+
+Codice leggibile, scelte documentate, limiti dichiarati. Si costruisce in pubblico quando è pronto:
+i repository si aprono uno alla volta, man mano che ogni plugin è abbastanza stabile da girare
+fuori dal laboratorio. Chi vuole smontarli, rimontarli e romperli è il benvenuto.
+
+---
+
+<div align="center">
+
+**fatto a mano · a volume indecente · senza chiedere permesso**
+
+[@Entherogen-Audio](https://github.com/Entherogen-Audio)
+
+<sub>⚠ Alcuni plugin possono alterare la percezione del tempo. Usare con giudizio, idratarsi, proteggere l'udito.</sub>
+
+</div>
